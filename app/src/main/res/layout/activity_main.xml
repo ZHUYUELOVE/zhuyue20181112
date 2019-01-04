@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <android.support.v4.widget.DrawerLayout android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/Drawer_Layout" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+    <FrameLayout android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/Framelayout"/>
+
+</RelativeLayout>
+
+
+    -<LinearLayout android:layout_height="match_parent" android:layout_width="200dp" android:orientation="vertical" android:background="@color/colorPrimary" android:layout_gravity="start">
+
+    <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/dd" android:layout_gravity="center_horizontal" android:src="@mipmap/ic_launcher"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/xtv" android:background="#64b7c3" android:layout_marginTop="100dp" android:text="XListView上拉下加载" android:gravity="center"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/ltv" android:background="#0F0" android:layout_marginTop="100dp" android:text="ListView多布局" android:gravity="center"/>
+
+</LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>
